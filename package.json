@@ -1,5 +1,5 @@
 {
-  "name": "ex_0226",
+  "name": "app3",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,10 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.13.5",
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1",
     "react": "^19.2.0",
+    "react-cookie": "^8.0.1",
     "react-dom": "^19.2.0",
-    "react-router": "^7.13.1",
-    "react-router-dom": "^7.13.1"
+    "react-router": "^7.13.0",
+    "react-router-dom": "^7.13.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
@@ -24,9 +28,6 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
-    "vite": "npm:rolldown-vite@7.2.5"
-  },
-  "overrides": {
-    "vite": "npm:rolldown-vite@7.2.5"
+    "vite": "^7.2.4"
   }
 }
